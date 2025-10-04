@@ -16,6 +16,7 @@ export default function Navbar() {
   const menuItems = [
     { name: "Events", path: "/Events" },
     { name: "Gallery", path: "/Gallery" },
+    { name: "Videos", path: "/Videos" },  
     { name: "Contact", path: "/Contact" },
   ];
 
@@ -40,6 +41,12 @@ export default function Navbar() {
           </Link>
         </NavigationMenuItem>
       </NavigationMenuList>
+      
+      <div className="absolute left-1/2 transform -translate-x-1/2">
+        <h1 className="text-xl md:text-2xl font-bold text-white tracking-wide">
+          Roads <span className="text-red-500">&</span> Rides
+        </h1>
+      </div>
 
       {/* Desktop Menu */}
       <NavigationMenuList className="hidden md:flex space-x-8 text-lg font-medium">

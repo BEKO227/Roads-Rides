@@ -46,9 +46,11 @@ export default function Home() {
           <p className="text-lg md:text-xl text-gray-400 mb-6">
           Special rides, great roads and wonderful people, all in one club.
           </p>
-          <Button className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition cursor-pointer">
-          Join the Club
-          </Button>
+            <Link href='/Contact'>
+            <Button className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition cursor-pointer">
+            Join the Club
+            </Button>
+            </Link>
         </motion.div>
         
       </section>

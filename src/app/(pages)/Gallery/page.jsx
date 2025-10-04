@@ -58,7 +58,7 @@ export default function Gallery() {
               alt="Gallery Image"
               width={500}
               height={300}
-              className="object-cover w-full h-64"
+              className="object-cover w-full h-64 "
             />
           </motion.div>
         ))}

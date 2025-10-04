@@ -57,7 +57,7 @@ export default function EventsPage() {
     return (
       <main className="bg-black text-white min-h-screen px-6 py-20">
         <h1 className="text-5xl md:text-6xl font-bold text-center mb-12">
-          Our latest Events
+          Our <span className="text-red-500">latest</span> Events
         </h1>
   
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

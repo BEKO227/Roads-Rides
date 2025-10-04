@@ -6,7 +6,7 @@ import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 export default function Contact() {
   return (
     <main className="bg-black text-white min-h-screen py-20 px-6">
-      <h1 className="text-4xl font-bold text-center mb-12">Contact Us</h1>
+      <h1 className="text-4xl font-bold text-center mb-12">Contact <span className="text-red-500">Us</span></h1>
 
       <div className="max-w-3xl mx-auto flex flex-col md:flex-row gap-12">
         {/* Contact Form */}
@@ -46,7 +46,7 @@ export default function Contact() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="flex-1 flex flex-col gap-6 justify-center items-center md:items-start"
         >
-          <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
+          <h2 className="text-2xl font-semibold mb-4">Get <span className="text-red-500">in</span> Touch</h2>
           <p className="text-gray-400 text-center md:text-left">
             Roads & Rides Club <br />
             Cairo, Egypt

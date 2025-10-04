@@ -41,7 +41,7 @@ export default function Home() {
           transition={{ duration: 1 }}
         >
           <h1 className="text-5xl md:text-7xl font-extrabold mb-4">
-            Eat • Drive • Sleep • Repeat
+            Eat • <span className="text-red-500">Drive</span> • Sleep • <span className="text-red-500">Repeat</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-6">
           Special rides, great roads and wonderful people, all in one club.
@@ -58,7 +58,7 @@ export default function Home() {
       {/* Founders Section */}
       <section className="py-20 px-6 text-center bg-neutral-900">
       <section className="py-20 px-6 text-center bg-neutral-900">
-        <h2 className="text-4xl font-bold mb-12">Rest In Peace</h2>
+        <h2 className="text-4xl font-bold mb-12">Rest <span className="text-red-500">In</span> Peace</h2>
         <div className="flex flex-col md:flex-row justify-center items-center gap-12">
           {/* Founder 1 */}
           <motion.div
@@ -80,7 +80,7 @@ export default function Home() {
 
         </div>
       </section>
-        <h2 className="text-4xl font-bold mb-12">Meet the Founders</h2>
+        <h2 className="text-4xl font-bold mb-12">Meet <span className="text-red-500">the</span> Founders</h2>
         <div className="flex flex-col md:flex-row justify-center items-center gap-12">
           {/* Founder 1 */}
           <motion.div

@@ -86,7 +86,7 @@ export default function SponserShip() {
   ];
   return (
     <section id="sponsorships" className="py-20 px-6 text-center bg-neutral-900">
-    <h2 className="text-4xl font-bold mb-12">Our Sponsors</h2>
+    <h2 className="text-4xl font-bold mb-12"><span className="text-red-500">Our</span> Sponsors</h2>
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center">
       {sponsors.map((sponsor, i) => (
         <motion.div

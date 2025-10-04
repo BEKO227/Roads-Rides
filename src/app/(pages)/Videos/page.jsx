@@ -17,7 +17,7 @@ const videos = [
 export default function Videos() {
   return (
     <main className="bg-black text-white min-h-screen py-20 px-6">
-      <h1 className="text-4xl font-bold text-center mb-12">Our heros videos on Youtube</h1>
+      <h1 className="text-4xl font-bold text-center mb-12">Our heros <span className="text-red-500">video </span>covering on <span className="text-red-500">Youtube</span></h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {videos.map((video, i) => (

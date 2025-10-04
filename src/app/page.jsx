@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from 'next/link';
 import SponserShip from './Components/Sponsership/SponserShip';
+import Footer from './Components/Footer/Footer';
 
 export default function Home() {
 
@@ -119,24 +120,7 @@ export default function Home() {
       <SponserShip/>
 
       {/* Footer */}
-      <footer className="py-6 bg-black text-center text-gray-500">
-        <p>© 2025 Roads & Rides Club | All Rights Reserved</p>
-        <div className="flex justify-center space-x-6 mt-4">
-          <a
-            href="https://instagram.com/roadsnridesegypt"
-            target="_blank"
-            className="hover:text-red-500"
-          >
-            Instagram
-          </a>
-          <a href="#" className="hover:text-red-500">
-            Facebook
-          </a>
-          <a href="#" className="hover:text-red-500">
-            YouTube
-          </a>
-        </div>
-      </footer>
+      <Footer/>
     </main>
   );
 }

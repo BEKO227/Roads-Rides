@@ -19,7 +19,7 @@ export default function Footer() {
         YouTube
       </a>
     </div>
-    <p className='m-2'>Youssef Hashish | All Rights Reserved | <a className='hover:text-red-500' href="https://youssef-s-portfolio-six.vercel.app/">Visit My Portfolio</a></p>
+    <p className='m-2'>Youssef Hashish | All Rights Reserved</p>
     <p className='m-2'><a className='hover:text-red-500' href="https://youssef-s-portfolio-six.vercel.app/">Visit My Portfolio</a></p>
 
   </footer>

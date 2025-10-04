@@ -11,17 +11,18 @@ export default function Home() {
 
   return (
 <main
-  className="bg-black text-white min-h-screen relative bg-center bg-fixed bg-no-repeat">
+  className="bg-black/90 text-white min-h-screen relative bg-center bg-fixed bg-no-repeat">
 <div
   className="
     absolute 
     top-20 left-1/2 -translate-x-1/2  
     opacity-10 
     rounded-full
-    w-[60vw] h-[60vw]     /* mobile: smaller circle */
-    sm:w-[50vw] sm:h-[50vw]  /* small screens */
-    md:w-[40vw] md:h-[40vw]  /* tablets */
-    lg:w-[40vw] lg:h-[40vw]  /* desktops */
+    w-[60vw] h-[60vw]
+    sm:w-[50vw] sm:h-[50vw]
+    md:w-[40vw] md:h-[40vw]
+    lg:w-[40vw] lg:h-[40vw]
+    pointer-events-none   /* <--- Add this */
   "
   style={{
     backgroundImage: "url('/RandR logo.jpg')",
@@ -29,6 +30,9 @@ export default function Home() {
     backgroundPosition: "center",
   }}
 />
+
+
+
       {/* Hero Section */}
       <section className="flex items-center justify-center bg-black/70 h-[100vh] text-center px-6">
         <motion.div
@@ -40,12 +44,10 @@ export default function Home() {
             Eat • Drive • Sleep • Repeat
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-6">
-            Egypt’s First Exotic Car Enthusiast Club
+          Special rides, great roads and wonderful people, all in one club.
           </p>
           <Button className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition cursor-pointer">
-          <Link href='/Contact'>
           Join the Club
-          </Link>
           </Button>
         </motion.div>
         
@@ -65,10 +67,10 @@ export default function Home() {
           >
             <Image
               src="/HaithamSamir.jpeg"
-              alt="Yehia Rashdan"
+              alt="Haitham Samir"
               width={150}
               height={150}
-              className="rounded-full mb-4 object-cover"
+              className="w-36 h-36 rounded-full mb-4 object-cover border-4 border-red-500 shadow-[0_0_15px_rgba(239,68,68,0.7)]"
             />
             <h3 className="text-2xl font-semibold text-red-500">Haitham Samir</h3>
             <p className="text-gray-400 mt-2 text-sm">Please Pray for him</p>
@@ -86,11 +88,11 @@ export default function Home() {
             className="flex flex-col items-center bg-black p-6 rounded-2xl shadow-lg w-64"
           >
             <Image
-              src="/YehiaRashdan.png"
+              src="/YehiaRashdan.jpg"
               alt="Yehia Rashdan"
               width={150}
               height={150}
-              className="rounded-full mb-4 object-cover"
+              className="w-36 h-36 rounded-full mb-4 object-cover border-4 border-red-500 shadow-[0_0_15px_rgba(239,68,68,0.7)]"
             />
             <h3 className="text-2xl font-semibold text-red-500">Yehia Rashdan</h3>
             <p className="text-gray-400 mt-2 text-sm">Founder</p>
@@ -108,7 +110,7 @@ export default function Home() {
               alt="Ahmed Al Wakil"
               width={150}
               height={150}
-              className="rounded-full mb-4 object-cover"
+              className="w-36 h-36 rounded-full mb-4 object-cover border-4 border-red-500 shadow-[0_0_15px_rgba(239,68,68,0.7)]"
             />
             <h3 className="text-2xl font-semibold text-red-500">Ahmed Al Wakil</h3>
             <p className="text-gray-400 mt-2 text-sm">Co-Founder</p>

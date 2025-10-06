@@ -12,6 +12,8 @@ const videos = [
   { id: "Qlex2hmkxKc", delay: 0.6 },
   { id: "qh6KzRaEVno", delay: 0.7 },
   { id: "jHZFMnne7No", delay: 0.8 },
+  { id: "sH5URLOErC8", delay: 0.8 },
+
 ];
 
 export default function Videos() {
